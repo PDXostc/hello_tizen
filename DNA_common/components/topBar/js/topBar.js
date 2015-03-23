@@ -503,7 +503,7 @@ function initIcon(){
 			  {source:"/DNA_common/images/dashboard_inactive.png",	cb:"JLRPOCX033.Dashboard"},
 			  {source:"/DNA_common/images/hvac_inactive.png",		cb:"JLRPOCX008.HVAC"},
 			  {source:"/DNA_common/images/weather_inactive.png",	cb:"JLRPOCX035.Weather"},
-			  {source:"/DNA_common/images/news_inactive.png", 		cb:"JLRPOCX007.News"},
+			  {source:"/DNA_common/images/fmradio.png", 		cb:"JLRPOCX004.FMRadio"},
 			  {source:"/DNA_common/images/nfc_inactive.png", 		cb:"JLRPOCX034.NFC"}];
 	displayTasks();
 	initAppGrid();
