@@ -1,8 +1,9 @@
 /* Resets *************************************************/
 
-:focus {
+/* moved to common.css */
+/*:focus {
   outline: none;
-}
+}*/
 
 /* Fonts **************************************************/
 
@@ -10,63 +11,73 @@
 /* SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007 */
 /* http://scripts.sil.org/OFL */
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-weight: 200;
   src: url(../fonts/SourceSansPro-ExtraLight.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-weight: 300;
   src: url(../fonts/SourceSansPro-Light.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-style: italic;
   font-weight: 300;
   src: url(../fonts/SourceSansPro-LightItalic.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-weight: 400;
   src: url(../fonts/SourceSansPro-Regular.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-style: italic;
   font-weight: 400;
   src: url(../fonts/SourceSansPro-Italic.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-weight: 600;
   src: url(../fonts/SourceSansPro-Semibold.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-weight: 700;
   src: url(../fonts/SourceSansPro-Bold.ttf) format(truetype);
-}
+}*/
 
-@font-face {
+/* updated in common.css */
+/*@font-face {
   font-family: SourceSansPro;
   font-weight: 900;
   src: url(../fonts/SourceSansPro-Black.ttf) format(truetype);
-}
+}*/
 
 /* Root Elements ******************************************/
 
-html {
+/* moved to common.css */
+/*html {
   font-size: 10px;
-}
+}*/
 
-body {
+/* moved to common.css */
+/*body {
   background-color: rgb(0,0,0);
   background-image: url("../images/Hex-Background.jpg");
   display: flex;
@@ -78,101 +89,118 @@ body {
   padding: 0;
   position: relative;
   width: 1080px;
-}
+}*/
 
+/* moved to common.css */
 /* Prevents the selection of text on all but text inputs */
-:not(input):not(textarea) {
+/*:not(input):not(textarea) {
   -webkit-user-select: none;
   user-select: none;
-}
+}*/
 
 /*Typography **********************************************/
 
 /* Headings */
 
-h1, h2, h3, h4, h5, h6 {
+/* moved to common.css */
+/*h1, h2, h3, h4, h5, h6 {
   color: #fe9c00;
   font-weight: 400;
   line-height: 1em;
   margin: .5em 0;
-}
+}*/
 
-h1 {
+/* moved to common.css */
+/*h1 {
   font-size: 7rem;
-}
+}*/
 
-h2 {
+/* moved to common.css */
+/*h2 {
   font-size: 6rem;
-}
+}*/
 
-h3 {
+/* moved to common.css */
+/*h3 {
   font-size: 5rem;
-}
+}*/
 
-h4 {
+/* moved to common.css */
+/*h4 {
   font-size: 4rem;
-}
+}*/
 
-h5 {
+/* moved to common.css */
+/*h5 {
   font-size: 3.6rem;
-}
+}*/
 
-h6, .label {
+/* moved to common.css */
+/*h6, .label {
   font-size: 3rem;
   text-transform: uppercase;
-}
+}*/
 
 /* Text */
 
-p, ul {
+/* moved to common.css */
+/*p, ul {
   margin-bottom: 1em;
-}
+}*/
 
-p, ul, li,
+/* moved to common.css */
+/*p, ul, li,
 .text-input {
   color: white;
   font-size: 3rem;
-}
+}*/
 
-.text-large {
+/* moved to common.css */
+/*.text-large {
   font-size: 3.4rem;
-}
+}*/
 
-.text-medium {
+/* moved to common.css */
+/*.text-medium {
   font-size: 3.2rem;
-}
+}*/
 
-p.lead {
+/* moved to common.css */
+/*p.lead {
   font-size: 4.5rem;
   font-weight: 300;
-}
+}*/
 
 /* Anchors */
 
-a {
+/* moved to common.css */
+/*a {
   color: inherit;
-}
+}*/
 
 /* Lists */
 
-ul {
+/* moved to common.css */
+/*ul {
   font-size: 3rem;
   margin-left: 0;
-}
+}*/
 
-li {
+/* moved to common.css */
+/*li {
   margin-left: 1em;
-}
+}*/
 
 /* Sectioning Content and Div *****************************/
 
-div, 
+/* updated in common.css */
+/*div, 
 nav,
 aside,
 article,
 section {
   font-size: 3rem;
-}
+}*/
 
 /* Structural Elements ************************************/
 
@@ -181,16 +209,18 @@ section {
   the HTML structure suggested in the Style Guide
 */
 
-#base {
+/* moved to common.css */
+/*#base {
   display: flex;
   flex: 1;
   flex-direction: column;
   height: inherit;
   justify-content: space-between;
   position: relative;
-}
+}*/
 
-.modal,
+/* moved to common.css */
+/*.modal,
 #settings {
   box-sizing: border-box;
   display: flex;
@@ -199,88 +229,58 @@ section {
   position: absolute;
   top: 0;
   width: 100%;
-}
+}*/
 
-.modal {
+/* moved to common.css */
+/*.modal {
   align-items: center;
   justify-content: center;
-}
+}*/
 
-.modal-content {
+/* moved to common.css */
+/*.modal-content {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.8);
-}
+}*/
 
-#settings {
+/* moved to common.css */
+/*#settings {
   background-color: rgba(0, 0, 0, 0.9);
   flex: 1;
   transition: height .25s ease-out;
-}
+}*/
 
-#settings.collapsed {
+/* moved to common.css */
+/*#settings.collapsed {
   height: 0%;
   overflow: hidden;
-}
+}*/
 
-/* Pending styles for integration - do not delete
-
-    #app .content,
-    .modal .content,
-    #settings .content {
-      flex: 1;
-      padding: 20px;
-    }
-
-    #app .content,
-    #settings .content {
-      margin: 20px;
-    }
-    .wrapper {
-      overflow: hidden;
-      display: flex;
-      flex-direction : column;
-      flex-grow: 1;
-    }
-
-    .modal .content {
-      background-color: #333;
-    }
-
-    #top-bar {
-      height: 114px;
-      background-color: black;
-    }
-
-    #bottom-bar {
-      height: 139px;
-      background-color: black;
-      display: flex;
-    }
-
-End pending */
-
-#app {
+/* moved to common.css */
+/*#app {
   background-color: transparent;
   display: flex;
   flex: 1;
   flex-direction: column;
   position: relative;
-}
+}*/
 
-
-#top-bar,
+/* moved to common.css */
+/*#top-bar,
 #bottom-bar {
   box-shadow: inset 0 0 40px 2px rgba(255, 255, 255, 0.85);
   text-align: center;
 }
-
-#top-bar ul {
+*/
+/* moved to common.css */
+/*#top-bar ul {
   display: flex;
   margin: 0;
   padding: 0; 
-}
+}*/
 
-#top-bar .grid-space {
+/* moved to common.css */
+/*#top-bar .grid-space {
   background-color: transparent;
   box-sizing: border-box;
   display: inline;
@@ -288,121 +288,148 @@ End pending */
   height: 100%;
   padding: 10px; 
 }
-
-#top-bar .grid-space:not(:last-child) {
+*/
+/* moved to common.css */
+/*#top-bar .grid-space:not(:last-child) {
   border-right: 1px solid rgba(255, 255, 255, 0.25);
-}
+}*/
 
-#volume,
+/* moved to common.css */
+/*#volume,
 #settings-button {
   flex: 1;
-}
+}*/
 
-#agl-logo {
+/* moved to common.css */
+/*#agl-logo {
   flex: 3;
-}
+}*/
 
 /* Colors *************************************************/
 
-.orange-lt {
+/* moved to common.css */
+/*.orange-lt {
   color: #ffd38c;
-}
+}*/
 
-.orange-lt-bg {
+/* moved to common.css */
+/*.orange-lt-bg {
   background-color: #ffd38c;
-}
+}*/
 
-.orange-viv {
+/* moved to common.css */
+/*.orange-viv {
   color: #fe9c00;
-}
+}*/
 
-.orange-viv-bg {
+/* moved to common.css */
+/*.orange-viv-bg {
   background-color: #fe9c00;
-}
+}*/
 
-.blue-lt {
+/* moved to common.css */
+/*.blue-lt {
   color: #b2f0ff;
-}
+}*/
 
-.blue-lt-bg {
+/* moved to common.css */
+/*.blue-lt-bg {
   background-color: #b2f0ff;
-}
+}*/
 
-.blue-viv {
+/* moved to common.css */
+/*.blue-viv {
   color: #53b5ce;
-}
+}*/
 
-.blue-viv-bg {
+/* moved to common.css */
+/*.blue-viv-bg {
   background-color: #53b5ce;
-}
+}*/
 
-.yellow-lt {
+/* moved to common.css */
+/*.yellow-lt {
   color: #ffffb2;
-}
+}*/
 
-.yellow-lt-bg {
+/* moved to common.css */
+/*.yellow-lt-bg {
   background-color: #ffffb2;
-}
+}*/
 
-.yellow-viv {
+/* moved to common.css */
+/*.yellow-viv {
   color: #ffff00;
-}
+}*/
 
-.yellow-viv-bg {
+/* moved to common.css */
+/*.yellow-viv-bg {
   background-color: #ffff00;
-}
+}*/
 
-.green-lt {
+/* moved to common.css */
+/*.green-lt {
   color: #cdffb2;
-}
+}*/
 
-.green-lt-bg {
+/* moved to common.css */
+/*.green-lt-bg {
   background-color: #cdffb2;
-}
+}*/
 
-.green-viv {
+/* moved to common.css */
+/*.green-viv {
   color: #59ff00;
-}
+}*/
 
-.green-viv-bg {
+/* moved to common.css */
+/*.green-viv-bg {
   background-color: #59ff00;
-}
+}*/
 
-.grey {
+/* moved to common.css */
+/*.grey {
   color: #c4c4c4;
 }
-
-.grey-bg {
+*/
+/* moved to common.css */
+/*.grey-bg {
   background-color: #c4c4c4;
-}
+}*/
 
-.white {
+/* moved to common.css */
+/*.white {
   color: white;
-}
+}*/
 
-.white-bg {
+/* moved to common.css */
+/*.white-bg {
   background-color: white;
-}
+}*/
 
-.black {
+/* moved to common.css */
+/*.black {
   color: black;
-}
+}*/
 
-.black-bg {
+/* moved to common.css */
+/*.black-bg {
   background-color: black;
-}
+}*/
 
-.modal,
+/* updated in common.css */
+/*.modal,
 #settings,
 .overlay-bg {
   background-color: rgba(0,0,0,0.8);
-}
+}*/
 
 /* Controls ***********************************************/
 
 /* Buttons ************************************************/
 
-button,
+/* updated in common.css */
+/*button,
 .button,
 input[type='button'] {
   background-color: rgba(0, 0, 0, 0.8);
@@ -417,38 +444,45 @@ input[type='button'] {
   margin: 20px;
   padding: 8px 20px 12px;
   position: relative;
-}
+}*/
 
-.button-orange {
+/* updated in common.css */
+/*.button-orange {
   border-color: #fe9c00;
   box-shadow: inset 0 0 20px rgba(254, 156, 0, 0.9);
-}
+}*/
 
-.button-blue {
+/* updated in common.css */
+/*.button-blue {
   border-color: #b2f0ff;
   box-shadow: inset 0 0 20px rgba(178, 240, 255, 0.9);
-}
+}*/
 
-.button-green {
+
+/* updated in common.css */
+/*.button-green {
   border-color: #59ff00;
   box-shadow: inset 0 0 20px rgba(89, 255, 0, 0.9);
-}
+}*/
 
-.button-yellow {
+/*.button-yellow {
   border-color: #ffff00;
   box-shadow: inset 0 0 20px rgba(255, 255, 0, 0.9);
-}
-.clear-button::after { 
+}*/
+
+/* moved to common.css */
+/*.clear-button::after { 
   color: gray; 
   content: "\00d7";
   font-size: 5rem;
   line-height: 100px;
   margin-left: -50px; 
-}
+}*/
 
 /* Forms **************************************************/ 
 
-.text-input {
+/* updated in common.css */
+/*.text-input {
   background-color: rgba(0, 0, 0, 0.8);
   border-width: 1px;
   border-style: solid;
@@ -457,86 +491,102 @@ input[type='button'] {
   font-size: 3rem; 
   margin: 10px;
   padding: 20px;
-}
+}*/
 
-input,
+/* moved to common.css */
+/*input,
 textarea,
 .text-input {
   font-family: inherit;
-}
+}*/
 
-::-webkit-input-placeholder {
+/* updated to common.css */
+/*::-webkit-input-placeholder {
    color: #444;
-}
+}*/
 
-.input-yellow {
+/* updated to common.css */
+/*.input-yellow {
   border-color: rgba(255, 255, 0, 0.5);
-}
+}*/
 
-.input-yellow:focus {
+/* updated to common.css */
+/*.input-yellow:focus {
   box-shadow: 0 0 20px rgba(255, 255, 0, 0.9); 
-}
+}*/
 
-.input-blue {
+/* updated to common.css */
+/*.input-blue {
   border-color: rgba(178, 240, 255, 0.5);
-}
+}*/
 
-.input-blue:focus {
+/* updated to common.css */
+/*.input-blue:focus {
   box-shadow: 0 0 20px rgba(178, 240, 255, 0.9);
-}
+}*/
 
-.input-white {
+/* updated to common.css */
+/*.input-white {
   border: none;
   color: rgba(196, 196, 196, 1.0);
-}
+}*/
 
-.input-white:focus {
+/* updated to common.css */
+/*.input-white:focus {
   outline: none;
   box-shadow: 0 0 15px 5px #b0e0ee;
-}
+}*/
 
 /* .input-group
    A wrapper for grouping input fields, labels and other
    form content. Best used on block elements (eg. div)
 */ 
 
-.input-group {
+/* moved to common.css */
+/*.input-group {
   display: flex;
   justify-content: space-between;
-}
+}*/
 
-.input-group label { 
+/* updated to common.css */
+/*.input-group label { 
   flex: 1;
-} 
+}*/ 
 
-.input-group .text-input { 
+/* moved to common.css */
+/*.input-group .text-input { 
   flex: 2;
-}
+}*/
 
 /* Switches ***********************************************/
 
-.switch {
+/*  moved to common.css */
+/*.switch {
   margin: 20px;
 }
-
+*/
 /* Sizes for varying switches */
 
-.switch-large {
+/*  updated to common.css */
+/*.switch-large {
   height: 150px;
   width: 450px;
-} 
+} */
 
-.switch-small {
+/*  updated to common.css */
+/*.switch-small {
   height: 75px;
   width: 225px;
-}
+}*/
 
-.switch-xsmall {
+/*  updated to common.css */
+/*.switch-xsmall {
   height: 50px;
   width: 150px;
-}
+}*/
 
-.switch-plate {
+/*  updated to common.css */
+/*.switch-plate {
   background-repeat: no-repeat;
   background-size: 100%;
   box-sizing: border-box;
@@ -545,9 +595,10 @@ textarea,
   padding: 0;
   position: relative;
   width: 100%;
-}
+}*/
 
-.switch-control {
+/*  updated to common.css */
+/*.switch-control {
   -webkit-filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.35));
   background-image: url(../images/switchcontrol.svg);
   background-position: center;
@@ -555,84 +606,95 @@ textarea,
   background-size: 100% 100%;
   height: 100%;
   width: 100%;
-} 
+}*/ 
 
 /* On/Off Styles for Background Plate */
 
-.off .switch-plate {
+/*  updated to common.css */
+/*.off .switch-plate {
   background-image: url(../images/switchplate_off.svg);
-}
+}*/
 
-.on .switch-plate {
+/*  updated to common.css */
+/*.on .switch-plate {
   background-image: url(../images/switchplate_on.svg);
-}
+}*/
 
 /* On/Off Styles for switch control(knob) */
 
-.off .switch-plate {
+/*  updated to common.css */
+/*.off .switch-plate {
   padding-left: 3%;
   padding-right: 64%;
-}
+}*/
 
-.on .switch-plate {
+/*  updated to common.css */
+/*.on .switch-plate {
   padding-left: 64%;
   padding-right: 3%;
-}
+}*/
 
 /* Close button */
 
-.close-button {
+/*  updated to common.css */
+/*.close-button {
   float: right;
   padding: 10px;
   position: relative;
   right: 20px;
   top: 0;
-}
+}*/
 
-.close-button::after {
+/*  updated to common.css */
+/*.close-button::after {
   color: white;
   content: "\00d7";
   cursor: pointer;
   font-size: 5rem;
   height: 63px;
   width: 26px;
-}
+}*/
 
 /* Sliders ************************************************/
 
 /* Resets */
 
-.slider-input {
-  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+/*  updated to common.css */
+/*.slider-input {
+  -webkit-appearance: none;
   margin: 0;
   padding: 0;
   width: 100%;
-}
+}*/
 
-.slider-input::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Hides the slider thumb so that custom thumb can be made */
-}
+/*  moved to common.css */
+/*.slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}*/
 
-.slider-input:focus {
-  outline: none; /* Removes the blue accessibility border. */
-}
+/*  moved to common.css */
+/*.slider-input:focus {
+  outline: none; 
+}*/
 
 /* Slider Styles */
 
-.slider-input{
+/*  updated to common.css */
+/*.slider-input{
   -webkit-appearance:none;
   background: transparent;
   cursor: pointer;
   flex-basis: 82.5%;
-  font-size: 4em; /* Base size for scalability */
+  font-size: 4em;
   height:2em;
   line-height: 0;
   overflow:hidden;
   padding: .25em 0;
   position: relative;
-}
+}*/
 
-.slider-input::-webkit-slider-thumb {
+/*  updated to common.css */
+/*.slider-input::-webkit-slider-thumb {
   -webkit-appearance:none;
   -webkit-filter: drop-shadow(.05em .05em .05em rgba(0,0,0,.25));
   background-image: url(../images/hex_thumb_white_vert.png);
@@ -645,10 +707,11 @@ textarea,
   overflow: visible;
   position:relative;
   width: .85em;
-}
+}*/
 
 /* Style the level bar */
-.slider-input::-webkit-slider-thumb:after{
+/*  updated to common.css */
+/*.slider-input::-webkit-slider-thumb:after{
   background: rgba(178, 240, 255, 0.8);
   box-shadow: inset .125em .125em .5em rgba(255,255,255,.6),
               inset -1em -1em .125em -1em rgba(0,0,0,.5);
@@ -658,42 +721,49 @@ textarea,
   position:absolute;
   right: 100%;
   width:100vw;
-}
+}*/
 
 /* Styles the track */
-.slider-input::-webkit-slider-runnable-track {
+/*  updated to common.css */
+/*.slider-input::-webkit-slider-runnable-track {
   background-color: transparent;
   box-shadow: inset 0 0 0 .125em rgba(126,126,126,.25),
               inset 0 0 .5em .125em rgba(0,0,0,.5);
   height: 1em;
-}
+}*/
 
-.vertical-slider,
+/*  moved to common.css */
+/*.vertical-slider,
 .horizontal-slider {
   align-items: center;
   display: flex;
   font-size: 1rem;
   justify-content: space-between;
   position: relative;
-}
+}*/
 
-.thin-slider .slider-input {
+/*  moved to common.css */
+/*.thin-slider .slider-input {
   flex-basis: 90%;
-}
+}*/
 
-.thick-slider .slider-input {
+/*  moved to common.css */
+/*.thick-slider .slider-input {
   flex-basis: 75%;
-}
+}*/
 
-.thin-slider {
+/*  moved to common.css */
+/*.thin-slider {
   font-size: .5rem;
-}
+}*/
 
-.thick-slider {
+/*  moved to common.css */
+/*.thick-slider {
   font-size: 1.5rem;
-}
+}*/
 
-.slider-button {
+/*  moved to common.css */
+/*.slider-button {
   align-items: center;
   animation: bounceInDown 900ms 200ms ease-in-out both;
   background: linear-gradient(#db9604, #915a00);
@@ -706,173 +776,204 @@ textarea,
   text-align: center;
   text-shadow: 1px 1px 3px #444;
   width: 40px;
-}
+}*/
 
-.thin-slider .slider-button {
+/*  moved to common.css */
+/*.thin-slider .slider-button {
   height: 20px;
   width: 20px;
-}
+}*/
 
-.thick-slider .slider-button {
+/*  moved to common.css */
+/*.thick-slider .slider-button {
   height: 60px;
   width: 60px;
-}
+}*/
 
-.less-button::after {
+/*  moved to common.css */
+/*.less-button::after {
   content: "\02212";
-}
+}*/
 
-.more-button::after {
+/*  moved to common.css */
+/*.more-button::after {
   content: "\0002b";
-}
+}*/
 
-.less-button::after,
+/*  moved to common.css */
+/*.less-button::after,
 .more-button::after {
   color: white;
   font-size: 1em;
-}
+}*/
 
 /* Modifiers **********************************************/ 
 /* Modifiers should stay at the bottom of the CSS document */
 
-.hidden,
+/* updated in common.css */
+/*.hidden,
 .modal.hidden,
 #settings.hidden {
   display: none;
-}
+}*/
 
-.right {
+/* moved to common.css */
+/*.right {
   float: right;
-}
+}*/
 
-.left {
+/* moved to common.css */
+/*.left {
   float: left;
-}
+}*/
 
-.left-align {
+/* moved to common.css */
+/*.left-align {
   text-align: left;
-}
+}*/
 
-.right-align {
+/* moved to common.css */
+/*.right-align {
   text-align: right;
-}
+}*/
 
-.center {
+/* moved to common.css */
+/*.center {
   text-align: center;
-}
+}*/
 
-.no-margin {
+/* moved to common.css */
+/*.no-margin {
   margin: 0;
-}
+}*/
 
 /* Flex Modifiers */
 
-.flex-parent {
+/* moved to common.css */
+/*.flex-parent {
   display: flex;
-}
+}*/
 
-.flex-item {
+/* moved to common.css */
+/*.flex-item {
   flex: 1;
-}
+}*/
 
-.flex-item-2 {
+/* moved to common.css */
+/*.flex-item-2 {
   flex: 2;
-}
+}*/
 
-.flex-item-3 {
+/* moved to common.css */
+/*.flex-item-3 {
   flex: 3;
-}
+}*/
 
-.flex-column {
+/* moved to common.css */
+/*.flex-column {
   flex-direction: column;
-}
+}*/
 
-.flex-row {
+/* moved to common.css */
+/*.flex-row {
   flex-direction: row;
-}
+}*/
 
-.flex-center {
+/* moved to common.css */
+/*.flex-center {
   align-items: center;
   display: flex;
   justify-content: center;
-}
+}*/
 
-.flex-column-center {
+/* moved to common.css */
+/*.flex-column-center {
   flex-direction: column;
   justify-content: center;
-}
+}*/
 
-.space-between {
+/* moved to common.css */
+/*.space-between {
   justify-content: space-between;
-}
+}*/
 
 /* Touch Behavior *****************************************/
 
+/* Moved to common.css */
 /* Prevents scrolling and zooming where not specified */
-html,
+/*html,
 input,
 textarea {
   touch-action: none;
-}
+}*/
 
+/* Moved to common.css */
 /* Allows vertical and horizontal scrolling where specified 
    for lists */
-ul, ol {
+/*ul, ol {
   touch-action: pan-x pan-y;
-}
+}*/
 
 /* 
   Apply to elements where a scrollbar is desired.
   Shows a standard scrollbar as needed.
 */ 
 
-.scrollbar-x { 
+/* Updated in common.css */
+/*.scrollbar-x { 
   overflow-x: auto;
   touch-action: pan-x;
-} 
+} */
 
-.scrollbar-y {
+/* Moved to common.css */
+/*.scrollbar-y {
   overflow-y: auto;
   touch-action: pan-y;
-}
+}*/
 
-.scrollbar-xy {
+/* Moved to common.css */
+/*.scrollbar-xy {
   overflow: auto;
   touch-action: pan-x pan-y;
-}
+}*/
 
 /*
   Apply to elements where a scrolling without
   a scrollbar is desired.
 */
 
-.scrollable-x { 
+/* Updated in common.css */
+/*.scrollable-x { 
   overflow-x: auto; 
   touch-action: pan-x;
-}
+}*/
 
-.scrollable-y {
+/*.scrollable-y {
   overflow-y: auto;
   touch-action: pan-y;
-}
+} */
 
-.scrollable-xy {
+/* Moved to common.css */
+/*.scrollable-xy {
   overflow: auto;
   touch-action: pan-x pan-y;
-}
+}*/
 
-.scrollable-x::-webkit-scrollbar,
+/* Updated in common.css */
+/*.scrollable-x::-webkit-scrollbar,
 .scrollable-y::-webkit-scrollbar,
 .scrollable-xy::-webkit-scrollbar {
   display: none;
-}
+}*/
 
-::-webkit-scrollbar {
+/* Updated in common.css */
+/*::-webkit-scrollbar {
   margin-top: 20px; 
   width: 11px;  
-}
+}*/
 
-::-webkit-scrollbar-track { 
+/* Updated in common.css */
+/*::-webkit-scrollbar-track { 
   background: -webkit-linear-gradient(right, rgba(0,0,0,0.6), rgba(72, 72, 72, .8));  
   background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(72, 72, 72, .8)); 
   border-left: 1px solid #202020; 
@@ -880,15 +981,17 @@ ul, ol {
   border-bottom: none;  
   border-top: none; 
   margin-bottom: -1px;  
-} 
+} */
 
-::-webkit-scrollbar-thumb {   
+/* Updated in common.css */
+/*::-webkit-scrollbar-thumb {   
   background:linear-gradient(to right, rgba(112,112,112, .8), rgba(72,72,72, .8));  
   border-radius:5px;  
   border: 1px solid #202020;  
-}   
+}  */ 
 
-::-webkit-scrollbar-button { 
+/* Updated in common.css */
+/*::-webkit-scrollbar-button { 
   background: -webkit-linear-gradient(right, rgba(0,0,0,0.6), rgba(72, 72, 72, .8));  
   background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(72, 72, 72, .8)); 
   border-left: 1px solid #202020; 
@@ -896,9 +999,10 @@ ul, ol {
   border-bottom: none;  
   border-top: none; 
   height:11px;  
-}   
+}   */
 
-::-webkit-scrollbar-corner {  
+/* Updated in common.css */
+/*::-webkit-scrollbar-corner {  
   background: -webkit-linear-gradient(right, rgba(0,0,0,0.6), rgba(72, 72, 72, .8));  
   background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(72, 72, 72, .8)); 
   border-left: 1px solid #202020; 
@@ -907,34 +1011,39 @@ ul, ol {
   border-top: none; 
   height: 8px;  
   width: 8px; 
-} 
+} */
 
 /* Text Overflow *****************************************/
 
-.ellipsis-one-line,
+/* Moved to common.css */
+/*.ellipsis-one-line,
 .ellipsis-two-line,
 .ellipsis-three-line {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
-}
+}*/
 
-.ellipsis-one-line {
+/* Moved to common.css */
+/*.ellipsis-one-line {
   -webkit-line-clamp: 1;
-}
+}*/
 
-.ellipsis-two-line {
+/* Moved to common.css */
+/*.ellipsis-two-line {
   -webkit-line-clamp: 2;
-}
+}*/
 
-.ellipsis-three-line, {
+/* Moved to common.css */
+/*.ellipsis-three-line, {
   -webkit-line-clamp: 3;
-}
+}*/
 
 /* Boxes and Modules ****************************/
 
-.box-inshadow,
+/* updated in common.css */
+/*.box-inshadow,
 .box-outshadow {
   background-color: rgba(0, 0, 0, 0.8);
   border-color: rgba(255, 255, 255, 0.5);
@@ -943,55 +1052,64 @@ ul, ol {
   color: white;
   margin: 20px;
   padding: 20px;
-}
+}*/
 
-.box-inshadow {
+/* updated in common.css */
+/*.box-inshadow {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.9);
-}
+}*/
 
-.box-outshadow {
+/* updated in common.css */
+/*.box-outshadow {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
-}
+}*/
 
 /* Yellow */
 
-.box-in-yellow,
+/* updated in common.css */
+/*.box-in-yellow,
 .box-out-yellow {
   border-color: rgba(255, 255, 0, 0.5);
   color: #FFFF00;
-}
+}*/
 
-.box-in-yellow {
+/* updated in common.css */
+/*.box-in-yellow {
   box-shadow: inset 0 0 20px rgba(255, 255, 0, 0.9);
-}
+}*/
 
-.box-out-yellow {
+/* updated in common.css */
+/*.box-out-yellow {
   box-shadow: 0 0 20px rgba(255, 255, 0, 0.9);
-}
+}*/
 
 /* Orange */
 
-.box-in-orange,
+/* updated in common.css */
+/*.box-in-orange,
 .box-out-orange {
   border-color: rgba(254, 156, 0, 0.5);
   color: #FE9C00;
-}
+}*/
 
-.box-in-orange {
+/* updated in common.css */
+/*.box-in-orange {
   box-shadow: inset 0 0 20px rgba(254, 156, 0, 0.9);
-}
+}*/
 
-.box-out-orange {
+/* updated in common.css */
+/*.box-out-orange {
   box-shadow: 0 0 20px rgba(254, 156, 0, 0.9);
-}
+}*/
 
 /* Blue */
 
-.box-out-blue {
+/* updated in common.css */
+/*.box-out-blue {
   border-color: rgba(178, 240, 255, 0.5);
   box-shadow: 0 0 20px rgba(178, 240, 255, 0.9);
   color: #b2f0ff;
-}
+}*/
 
 /* Style Rule Graveyard ***********************************/
 
