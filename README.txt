@@ -13,30 +13,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-Name: AGL App Suite Release
+Name: Example Tizen Crosswalk Application
 Version: XW_TizenIVI3_0_01FEB_AGL_05MAR2015
 Base Image: tizen-3.0-ivi_20150201.3(http://download.tizen.org/releases/milestone/tizen/ivi-3.0/tizen-3.0-ivi_20150201.3/images/atom/ivi-mbr-i586/)
 Maintainer: Art McGee <amcgee7@jaguarlandrover.com>
 Mailing list: dev@lists.tizen.org
 
-Released Apps:
-           NAME:FOLDER
-           HomeScreen:DNA_HomeScreen
-           News:DNA_News
-           HVAC:DNA_HVAC
-           Dashboard:DNA_Dashboard
-           Google Maps:DNA_Navigation
-           NFC:DNA_NFC
-           Browser:DNA_Browser
-           Weather:DNA_Weather
-
-See Indiviual apps README.txt for details for each app.
-
 Build Instructions: 
 
-	make apps - To build the wgt files for all release apps
-
-Set the TIZEN_IP enviroment varable to the ip of target. or set TizenVTC host name to that ip.
+	Set the TIZEN_IP enviroment varable to the ip of target. or set TizenVTC host name to that ip.
 
 	make deploy - To build and copy the wgt files to the platform
 
@@ -44,13 +29,9 @@ Set the TIZEN_IP enviroment varable to the ip of target. or set TizenVTC host na
 
 	make run.feb1 - To build, install and run on the platform
 
+	There are other make targets you may find useful.
+
 gbs build process
-
-	This is the initial repo for all projects combined
-
-	_common's and HomeScreen added.
-
-	Makefiles should work for HomeScreen but spec files need to be updated so an rpm build won't work
 
 	This repository contains the POC applications and extensions available
 	for AGL Application Suite.
@@ -61,7 +42,7 @@ gbs build process
 
 	-- Applications
 
-	All applications make use of the "common" repository for artifacts 
+	All applications make use of the "common-app" repository for artifacts 
 	common across every POC.
 
 	-- Extensions
