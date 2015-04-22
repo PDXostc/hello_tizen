@@ -1,4 +1,4 @@
-PROJECT = JLRPOCX000.HelloTizen
+PROJECT = JLRPOCX032.HelloTizen
 APPNAME = HelloTizen
 WRT_FILES = DNA_common css data icon.png index.html setup config.xml images js manifest.json templates
 VERSION := 0.0.1
@@ -24,7 +24,7 @@ kill.xwalk:
 	ssh root@$(TIZEN_IP) "pkill xwalk"
 
 kill.feb1:
-	ssh app@$(TIZEN_IP) "pkgcmd -k JLRPOCX000.HelloTizen"
+	ssh app@$(TIZEN_IP) "pkgcmd -k JLRPOCX032.HelloTizen"
 
 run: install
 	@echo "================ Run ======================="
@@ -34,12 +34,12 @@ boxcheck: tizen-release
 	ssh root@$(TIZEN_IP) "cat /etc/tizen-release" | diff tizen-release - ; if [ $$? -ne 0 ] ; then tput setaf 1 ; echo "tizen-release version not correct"; tput sgr0 ;exit 1 ; fi
 
 run.feb1: install.feb1
-	ssh app@$(TIZEN_IP) "app_launcher -s JLRPOCX000.HelloTizen -d "
+	ssh app@$(TIZEN_IP) "app_launcher -s JLRPOCX032.HelloTizen -d "
 
 install.feb1: deploy
 ifndef OBS
-	-ssh app@$(TIZEN_IP) "pkgcmd -u -n JLRPOCX000.HelloTizen -q"
-	ssh app@$(TIZEN_IP) "pkgcmd -i -t wgt -p /home/app/JLRPOCX000.HelloTizen.wgt -q"
+	-ssh app@$(TIZEN_IP) "pkgcmd -u -n JLRPOCX032.HelloTizen -q"
+	ssh app@$(TIZEN_IP) "pkgcmd -i -t wgt -p /home/app/JLRPOCX032.HelloTizen.wgt -q"
 else
 	cp -r $(PROJECT).wgt ${DESTDIR}/opt/usr/apps/.preinstallWidgets/
 endif
@@ -47,15 +47,15 @@ endif
 ifndef OBS
 install: deploy
 	ssh app@$(TIZEN_IP) "export DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/5000/dbus/user_bus_socket' && xwalkctl | egrep -e 'Phone' | awk '{print $1}' | xargs --no-run-if-empty xwalkctl -u"
-	ssh app@$(TIZEN_IP) "export DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/5000/dbus/user_bus_socket' && xwalkctl -i /home/app/JLRPOCX000.HelloTizen.wgt"
+	ssh app@$(TIZEN_IP) "export DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/5000/dbus/user_bus_socket' && xwalkctl -i /home/app/JLRPOCX032.HelloTizen.wgt"
 else
 install: 
-	cp -r JLRPOCX000.HelloTizen.wgt ${DESTDIR}/opt/usr/apps/.preinstallWidgets/
+	cp -r JLRPOCX032.HelloTizen.wgt ${DESTDIR}/opt/usr/apps/.preinstallWidgets/
 endif
 
 install_obs:
 	mkdir -p ${DESTDIR}/opt/usr/apps/.preinstallWidgets
-	cp -r JLRPOCX000.HelloTizen.wgt ${DESTDIR}/opt/usr/apps/.preinstallWidgets/
+	cp -r JLRPOCX032.HelloTizen.wgt ${DESTDIR}/opt/usr/apps/.preinstallWidgets/
 
 $(PROJECT).wgt : wgt
 
@@ -72,7 +72,7 @@ wgtPkg: common
 
 clean:
 	rm -rf js/services
-	rm -rf common
+	rm -rf DNA_common
 	rm -rf css/car
 	rm -rf css/user
 	rm -f $(PROJECT).wgt

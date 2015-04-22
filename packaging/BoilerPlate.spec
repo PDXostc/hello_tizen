@@ -1,4 +1,4 @@
-Name:       JLRPOCX000.HelloTizen
+Name:       JLRPOCX032.HelloTizen
 Summary:    A HTML HelloTizen application
 Version:    1.0.1
 Release:    1
@@ -33,12 +33,12 @@ rm -rf %{buildroot}
 make install_obs "OBS=1" DESTDIR="%{?buildroot}"
 
 %post
-    su app -c "pkgcmd -i -t wgt -p /opt/usr/apps/.preinstallWidgets/JLRPOCX000.HelloTizen.wgt -q"
+    su app -c "pkgcmd -i -t wgt -p /opt/usr/apps/.preinstallWidgets/JLRPOCX032.HelloTizen.wgt -q"
 
 %postun
-	su app -c "pkgcmd -u -n JLRPOCX000 -q"
+	su app -c "pkgcmd -u -n JLRPOCX032 -q"
 
 %files
 %defattr(-,root,root,-)
-/opt/usr/apps/.preinstallWidgets/JLRPOCX000.HelloTizen.wgt
+/opt/usr/apps/.preinstallWidgets/JLRPOCX032.HelloTizen.wgt
 
